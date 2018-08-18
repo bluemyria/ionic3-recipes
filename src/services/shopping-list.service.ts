@@ -3,8 +3,7 @@ import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { AuthService } from "./auth.service";
 
-import { of } from 'rxjs/observable/of';
-import { map, filter, tap, switchMap, catchError } from 'rxjs/operators';
+import { tap } from 'rxjs/operators';
 
 @Injectable()
 export class ShoppingListService {
